@@ -4,6 +4,7 @@ window.addEventListener("DOMContentLoaded", () => {
   const category = params.get("c");
   const model = params.get("m");
   const parameters = params.get("p");
+  // hard code base url
   const augmentor_base_url = "https://augmentor-web.vercel.app";
   const iframe_url =
     augmentor_base_url +
